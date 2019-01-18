@@ -4,7 +4,7 @@ const expect = require('chai').expect
 
 const CardscriptExpressionsxpressions = require('../lib/')
 const expressions = new CardscriptExpressionsxpressions()
-const expressionForm = require('./../../cardscript-examples/lib/examples/expression')
+const { expression } = require('@wmfs/cardscript-examples')
 const nestedForm = require('./fixtures/nested-set-form')
 const expressionFilled = require('./fixtures/expression-filled')
 const expressionNotFilled = require('./fixtures/expression-not-filled')
@@ -16,7 +16,7 @@ let expressionsFormExpressions, nestedFormExpressions, visibilityList, widgetNam
 
 describe('Loads of tests enit', function () {
   it('Should get the list of expressions from the simple Cardscript', done => {
-    const exp = expressions.getExpressionsFromCardscript(expressionForm)
+    const exp = expressions.getExpressionsFromCardscript(expression)
     expect(exp).to.eql(
       [
         {
@@ -42,7 +42,7 @@ describe('Loads of tests enit', function () {
   })
 
   it('Should use a list of AST\'s to produce a visibility list for expression form (feedback = true)', done => {
-    const visList = expressions.calculateWidgetVisibility(expressionForm, expressionFilled, expressions.asts)
+    const visList = expressions.calculateWidgetVisibility(expression, expressionFilled, expressions.asts)
     expect(visList).to.eql(
       {feedback: true, userWantsToGiveFeedback: true}
     )
@@ -62,7 +62,7 @@ describe('Loads of tests enit', function () {
   })
 
   it('Should use a list of AST\'s to produce a visibility list for expression form (feedback = false)', done => {
-    const visList = expressions.calculateWidgetVisibility(expressionForm, expressionNotFilled, expressions.asts)
+    const visList = expressions.calculateWidgetVisibility(expression, expressionNotFilled, expressions.asts)
     expect(visList).to.eql(
       {feedback: false, userWantsToGiveFeedback: true}
     )
