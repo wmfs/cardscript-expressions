@@ -3,6 +3,10 @@
   "description": "Cleans Cardscript form data to ensure we only submit the data that we should.",
   "version": "0.0.1",
   "author": "Reece Brend",
+  "keywords": [
+    "tymly",
+    "cardscript"
+  ],
   "main": "lib/index.js",
   "dependencies": {
     "esprima": "4.0.1",
