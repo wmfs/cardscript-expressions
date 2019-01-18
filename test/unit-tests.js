@@ -44,7 +44,7 @@ xdescribe('Loads of tests enit', function () {
   it('Should use a list of AST\'s to produce a visibility list for expression form (feedback = true)', done => {
     const visList = expressions.calculateWidgetVisibility(expression, expressionFilled, expressions.asts)
     expect(visList).to.eql(
-      {feedback: true, userWantsToGiveFeedback: true}
+      { feedback: true, userWantsToGiveFeedback: true }
     )
     visibilityList = visList
     done()
@@ -64,7 +64,7 @@ xdescribe('Loads of tests enit', function () {
   it('Should use a list of AST\'s to produce a visibility list for expression form (feedback = false)', done => {
     const visList = expressions.calculateWidgetVisibility(expression, expressionNotFilled, expressions.asts)
     expect(visList).to.eql(
-      {feedback: false, userWantsToGiveFeedback: true}
+      { feedback: false, userWantsToGiveFeedback: true }
     )
     visibilityList = visList
     done()
@@ -88,8 +88,8 @@ describe('Nested tests', function () {
     const exp = expressions.getExpressionsFromCardscript(nestedForm)
     expect(exp).to.eql(
       [
-        {widget: 'feedbackSet', expression: 'data.userWantsToGiveFeedback'},
-        {widget: 'reasonSet', expression: 'data.feedback'}
+        { widget: 'feedbackSet', expression: 'data.userWantsToGiveFeedback' },
+        { widget: 'reasonSet', expression: 'data.feedback' }
       ]
     )
     exp.forEach(widget => {
@@ -151,7 +151,7 @@ describe('Nested tests', function () {
   it('Should use the visibility list for nested form to attempt to clean the data (allHide)', done => {
     const cleanedData = expressions.cleanData(allHide, visibilityList)
     expect(cleanedData).to.eql(
-      {userWantsToGiveFeedback: false, name: 'Test'}
+      { userWantsToGiveFeedback: false, name: 'Test' }
     )
     done()
   })
