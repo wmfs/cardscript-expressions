@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/wmfs/cardscript-expressions/compare/v1.0.0...v1.1.0) (2019-06-27)
+
+
+### 🛠 Builds
+
+* **deps:** update static-eval requirement from 2.0.0 to 2.0.2 ([bd1bfbf](https://github.com/wmfs/cardscript-expressions/commit/bd1bfbf))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([da343a0](https://github.com/wmfs/cardscript-expressions/commit/da343a0))
+* **deps-dev:** update semantic-release requirement ([592535b](https://github.com/wmfs/cardscript-expressions/commit/592535b))
+
 # 1.0.0 (2019-01-25)
 
 
