@@ -1,7 +1,7 @@
 # cardscript-expressions
 
 [![Tymly Cardscript](https://img.shields.io/badge/tymly-cardscript-blue.svg)](https://tymly.io/)
-[![Build Status](https://travis-ci.com/wmfs/cardscript-expressions.svg?branch=master)](https://travis-ci.com/wmfs/cardscript-expressions)
+[![CircleCI](https://circleci.com/gh/wmfs/cardscript-expressions.svg?style=svg)](https://circleci.com/gh/wmfs/cardscript-expressions)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/cardscript-expressions.svg)](https://www.npmjs.com/package/@wmfs/cardscript-expressions) 
 [![codecov](https://codecov.io/gh/wmfs/cardscript-expressions/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/cardscript-expressions) 
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/cardscript-expressions/badge)](https://www.codefactor.io/repository/github/wmfs/cardscript-expressions) 
