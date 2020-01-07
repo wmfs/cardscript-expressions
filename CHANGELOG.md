@@ -1,3 +1,29 @@
+# [1.2.0](https://github.com/wmfs/cardscript-expressions/compare/v1.1.0...v1.2.0) (2020-01-07)
+
+
+### 🛠 Builds
+
+* **deps:** bump static-eval from 2.0.2 to 2.0.3 ([5415014](https://github.com/wmfs/cardscript-expressions/commit/5415014088f4ee0deaabbdb3a8c6e9828455e91d))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([2bfb834](https://github.com/wmfs/cardscript-expressions/commit/2bfb834b2d7e9c7c9c6762eb03be2c613bde92ca))
+* **deps-dev:** bump packages ([1083f7a](https://github.com/wmfs/cardscript-expressions/commit/1083f7a1740b80d32e90d7f2fc0881ed2d2b8d3d))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([c076895](https://github.com/wmfs/cardscript-expressions/commit/c076895191593a08e7895a578b730e846263cd31))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([4734448](https://github.com/wmfs/cardscript-expressions/commit/4734448eb15c82006083dd7b267b826f04ed2536))
+* **deps-dev:** update dev dependancies ([8b4c1d6](https://github.com/wmfs/cardscript-expressions/commit/8b4c1d64e4f355736684ad65e3308c0aaaa5e018))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.1.4 ([a4cf45e](https://github.com/wmfs/cardscript-expressions/commit/a4cf45e25c5068ca915b95ec392a45961058b46a))
+* **deps-dev:** update nyc requirement from 13.1.0 to 14.1.1 ([62e5d8b](https://github.com/wmfs/cardscript-expressions/commit/62e5d8bbbf552168b0a064e29c3c9362d8a184c8))
+* **deps-dev:** update semantic-release requirement ([1d8d73c](https://github.com/wmfs/cardscript-expressions/commit/1d8d73caa379dffc7ec03eb0e74132491ce26981))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge to readme ([75c482d](https://github.com/wmfs/cardscript-expressions/commit/75c482dd1feacda3efe7ea8be0569278e5d0d750))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([8c23686](https://github.com/wmfs/cardscript-expressions/commit/8c23686c77e1e010305f549dfd4e69d9664c84cb))
+* **travis:** Remove Travis config ([8914875](https://github.com/wmfs/cardscript-expressions/commit/89148750f6685696dcf94c13767585a79ba1852a))
+
 # [1.1.0](https://github.com/wmfs/cardscript-expressions/compare/v1.0.0...v1.1.0) (2019-06-27)
 
 
