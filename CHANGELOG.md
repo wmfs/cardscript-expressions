@@ -1,3 +1,33 @@
+# [1.3.0](https://github.com/wmfs/cardscript-expressions/compare/v1.2.0...v1.3.0) (2020-03-18)
+
+
+### 🛠 Builds
+
+* **deps:** bump static-eval from 2.0.3 to 2.0.5 ([05cd3d7](https://github.com/wmfs/cardscript-expressions/commit/05cd3d7888f190e184384b95318e25b6d4396536))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([6be7ce5](https://github.com/wmfs/cardscript-expressions/commit/6be7ce5a7188eb94eb11a48c0ad2a83e98d73422))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([b4a19d3](https://github.com/wmfs/cardscript-expressions/commit/b4a19d35c57589d985dc33acfb246dddd7d1695f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/cardscript-examples from 1.16.0 to 1.18.0 ([5a6e4ac](https://github.com/wmfs/cardscript-expressions/commit/5a6e4accd3fecfc680a133475a48cafb62192297))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([6cd2da0](https://github.com/wmfs/cardscript-expressions/commit/6cd2da0f3c95819d595f939f8f18744f07dc3aee))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([2b3d2c3](https://github.com/wmfs/cardscript-expressions/commit/2b3d2c36388eb4d23c2f0ae659c3a21d3f24a9ea))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([2260499](https://github.com/wmfs/cardscript-expressions/commit/22604991e43228bfaca546e9d2c2271a3569b0c5))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([7f92ddb](https://github.com/wmfs/cardscript-expressions/commit/7f92ddb487bb16256f65a4088749910f6008fa7b))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([e4f793b](https://github.com/wmfs/cardscript-expressions/commit/e4f793b29b28a1fb110717c0f3cf392f1f269c10))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([ea46729](https://github.com/wmfs/cardscript-expressions/commit/ea46729f09f4f646aa814b820b0146ac08d3f721))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([44a7f97](https://github.com/wmfs/cardscript-expressions/commit/44a7f97cc653838123ace04bef4b220f58fa870b))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([36442af](https://github.com/wmfs/cardscript-expressions/commit/36442afd4d3028f556d904601c5c1982c9ca96f7))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([5b98df5](https://github.com/wmfs/cardscript-expressions/commit/5b98df5f65ee391be5ee8e8ae36e82a7613c3012))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.2 ([30f9571](https://github.com/wmfs/cardscript-expressions/commit/30f9571132122026823be29df22abea5c327b9a3))
+* **deps-dev:** bump semantic-release from 17.0.2 to 17.0.3 ([184e717](https://github.com/wmfs/cardscript-expressions/commit/184e717c4e69176bb2e1ade475c24cd52140ed1a))
+* **deps-dev:** bump semantic-release from 17.0.3 to 17.0.4 ([3d824e8](https://github.com/wmfs/cardscript-expressions/commit/3d824e87451fe371fc55dae40c9bdf77258221e8))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([622d196](https://github.com/wmfs/cardscript-expressions/commit/622d1962262bf171744377ed45968eb0f7b0c020))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([bbc4cb2](https://github.com/wmfs/cardscript-expressions/commit/bbc4cb2ccc0c3855ef3ff37b2c383dd13e499ceb))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([e4ba697](https://github.com/wmfs/cardscript-expressions/commit/e4ba697313a98dc3e2b33a053665690ed5c3fcf9))
+
+
+### 💎 Styles
+
+* standard --fix ([12d8195](https://github.com/wmfs/cardscript-expressions/commit/12d8195ed5f5720be16aaa03d4e88719529a3479))
+
 # [1.2.0](https://github.com/wmfs/cardscript-expressions/compare/v1.1.0...v1.2.0) (2020-01-07)
 
 
